@@ -1,0 +1,37 @@
+.style_table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9rem;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.style_table thead tr{
+    background-color: #327f87;
+    color: #fff;
+    text-align: left;
+}
+.style_table th, .style_table td{
+    padding: 12px 15px;
+}
+.style_table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.style_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.btn{
+    margin: 5px;
+    padding: 2px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn_edit{
+    background-color: green;
+    color: white;
+}
+.btn_delete{
+    background-color: red;
+    color: black;
+}

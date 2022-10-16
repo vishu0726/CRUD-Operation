@@ -1,0 +1,38 @@
+.add_edit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    border: 1px solid gray;
+    margin: 10% 30% 0 30%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 5px gray;
+    background-color: khaki;
+}
+.input_div{
+    margin: 10px;
+}
+.input_div > input {
+    border: none;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+    outline: none;
+    background-color: khaki;
+}
+.input_div > button {
+    margin-left: 5%;
+    padding: 2px;
+    border: none;
+    background-color: khaki;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 1px;
+}
+.input_div > button:hover{
+    color: gray;
+    transform: scale(1.07);
+}

@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    padding: 5px;
+}
+.logo > h2{
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: xx-large;
+    border-bottom: 1px solid gray;
+}
+.header_right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_right > a > p{
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+/* .active{
+    background-color: red;
+    text-align: center;
+} */
